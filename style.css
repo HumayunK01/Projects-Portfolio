@@ -1,3 +1,24 @@
+html {
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+}
+
 .humayun-cards {
     padding: 20px 0 20px 20px;
     width: 100%;
@@ -18,4 +39,30 @@
 
 .humayun-boxshadow {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* Basic CSS for Footer */
+:root {
+    --footer-background: #212529;
+    --footer-text-color: #fff;
+    --footer-link-color: #6c757d;
+    --footer-link-hover-color: #fec503;
+}
+
+.humayun-footer {
+    background-color: var(--footer-background);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.humayun-footer .humayun-footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.humayun-footer .humayun-footer-text {
+    color: var(--footer-text-color);
+    font-size: 16px;
+    margin: 0;
 }
