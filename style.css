@@ -1,0 +1,21 @@
+.humayun-cards {
+    padding: 20px 0 20px 20px;
+    width: 100%;
+}
+
+.humayun-links {
+    text-decoration: none;
+}
+
+.humayun-links-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.humayun-h3 {
+    padding: 20px 20px 0;
+}
+
+.humayun-boxshadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
